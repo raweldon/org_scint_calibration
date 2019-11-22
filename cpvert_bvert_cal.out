@@ -1,0 +1,2815 @@
+
+calibration for bvert crsytal (1) with 11 mev beam
+
+
+---------------------------------------------------
+cs_bvert_11MeV_0tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_28-09_38_40_groomed.npz
+1 beam_expt_2018_01_28-09_43_41_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_bvert_11MeV_0tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_28-09_49_20_groomed.npz
+1 beam_expt_2018_01_28-09_54_21_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+---------------------------------------------------
+co_bvert_11MeV_0tilt
+found co
+loaded co_spec.npy
+0 beam_expt_2018_01_28-10_00_19_groomed.npz
+1 beam_expt_2018_01_28-10_05_20_groomed.npz
+
+bounds: meas_data_co 6000 11000
+
+performing minimization
+    triple spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 220
+    # data points      = 437
+    # variables        = 11
+    chi-square         = 2238.71765
+    reduced chi-square = 5.25521
+    Akaike info crit   = 735.93796
+    Bayesian info crit = 780.81723
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03123158 +/- 0.000906 (2.90%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03283640 +/- 0.001814 (5.53%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -190.043822 +/- 10.44457 (5.50%) (init=-100)
+    spread:      8868.59955 +/- 12.78675 (0.14%) (init= 8000)
+    c1_1:        0.00078375 +/- 4.24e-05 (5.41%) (init= 0.01)
+    c2_1:       -1.12268088 +/- 0.054299 (4.84%) (init=-0.1)
+    c1_2:        0.00317605 +/- 3.68e-05 (1.16%) (init= 0.01)
+    c2_2:       -2.11485332 +/- 0.065543 (3.10%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+    alpha_3:     0 (fixed)
+    beta_3:      0.03241499 +/- 0.000579 (1.79%) (init= 0.03)
+    gamma_3:     0 (fixed)
+    c1_3:        0.00523224 +/- 3.16e-05 (0.60%) (init= 0.01)
+    c2_3:       -1.73641554 +/- 0.031910 (1.84%) (init=-1)
+    y_scale_3:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.991
+    C(shift, spread)             = -0.930
+    C(c1_3, c2_3)                =  0.820
+    C(c1_2, c2_2)                =  0.759
+    C(shift, c1_1)               = -0.609
+    C(shift, c2_1)               = -0.573
+    C(beta_1, shift)             = -0.544
+    C(spread, c1_3)              = -0.526
+    C(spread, c2_3)              = -0.484
+    C(spread, c1_1)              =  0.451
+    C(beta_3, c1_3)              =  0.449
+    C(spread, c2_1)              =  0.424
+    C(spread, beta_3)            = -0.410
+    C(beta_1, spread)            =  0.399
+    C(beta_3, c2_3)              =  0.380
+    C(shift, c1_3)               =  0.311
+    C(shift, c2_3)               =  0.298
+    C(shift, beta_3)             =  0.275
+    C(beta_2, c2_2)              =  0.236
+    C(beta_2, c1_2)              =  0.235
+    C(beta_1, c1_1)              =  0.232
+    C(beta_1, c2_1)              =  0.216
+    C(spread, c1_2)              = -0.210
+    C(c1_2, c1_3)                =  0.199
+    C(spread, c2_2)              = -0.192
+    C(c1_2, c2_3)                =  0.177
+    C(c2_2, c1_3)                =  0.170
+    C(c2_2, c2_3)                =  0.152
+    C(c1_2, beta_3)              =  0.138
+    C(shift, c1_2)               =  0.128
+    C(shift, c2_2)               =  0.126
+    C(c2_2, beta_3)              =  0.120
+
+---------------------------------------------------
+cs_cpvert_11MeV_0tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_28-18_18_20_groomed.npz
+1 beam_expt_2018_01_28-18_23_21_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_cpvert_11MeV_0tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_28-18_28_55_groomed.npz
+1 beam_expt_2018_01_28-18_33_56_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 186
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 915.87752
+    reduced chi-square = 4.14424
+    Akaike info crit   = 333.43079
+    Bayesian info crit = 360.90056
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03257490 +/- 0.000666 (2.04%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03357394 +/- 0.001284 (3.83%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -165.003011 +/- 10.81273 (6.55%) (init=-100)
+    spread:      8660.49212 +/- 18.23556 (0.21%) (init= 8000)
+    c1_1:        0.00084649 +/- 3.65e-05 (4.31%) (init= 0.01)
+    c2_1:       -1.04448763 +/- 0.045288 (4.34%) (init=-0.1)
+    c1_2:        0.00431172 +/- 4.36e-05 (1.01%) (init= 0.01)
+    c2_2:       -1.96399237 +/- 0.065548 (3.34%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.994
+    C(shift, spread)             = -0.937
+    C(c1_2, c2_2)                =  0.774
+    C(beta_2, spread)            = -0.513
+    C(spread, c1_2)              = -0.464
+    C(spread, c2_2)              = -0.437
+    C(beta_2, shift)             =  0.415
+    C(shift, c1_1)               = -0.376
+    C(shift, c1_2)               =  0.374
+    C(shift, c2_1)               = -0.361
+    C(shift, c2_2)               =  0.354
+    C(beta_1, c1_1)              =  0.346
+    C(beta_1, c2_1)              =  0.327
+    C(beta_2, c1_2)              =  0.275
+    C(beta_2, c2_2)              =  0.263
+    C(spread, c1_1)              =  0.175
+    C(spread, c2_1)              =  0.169
+
+---------------------------------------------------
+cs_bvert_11MeV_45tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_29-01_45_49_groomed.npz
+1 beam_expt_2018_01_29-01_50_50_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_bvert_11MeV_45tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_29-01_56_30_groomed.npz
+1 beam_expt_2018_01_29-02_01_31_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 198
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 532.74404
+    reduced chi-square = 2.41061
+    Akaike info crit   = 209.34907
+    Bayesian info crit = 236.81885
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03155265 +/- 0.000636 (2.01%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03274715 +/- 0.001269 (3.88%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -143.070615 +/- 10.48562 (7.33%) (init=-100)
+    spread:      8590.50370 +/- 17.95911 (0.21%) (init= 8000)
+    c1_1:        0.00097453 +/- 4.18e-05 (4.29%) (init= 0.01)
+    c2_1:       -1.02953827 +/- 0.044248 (4.30%) (init=-0.1)
+    c1_2:        0.00234243 +/- 2.71e-05 (1.16%) (init= 0.01)
+    c2_2:       -1.93669997 +/- 0.063445 (3.28%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.994
+    C(shift, spread)             = -0.939
+    C(c1_2, c2_2)                =  0.817
+    C(spread, c1_2)              = -0.516
+    C(spread, c2_2)              = -0.468
+    C(shift, c1_2)               =  0.421
+    C(shift, c1_1)               = -0.418
+    C(shift, c2_1)               = -0.400
+    C(shift, c2_2)               =  0.385
+    C(beta_2, c1_2)              =  0.337
+    C(beta_2, c2_2)              =  0.312
+    C(beta_1, c1_1)              =  0.294
+    C(beta_2, spread)            = -0.288
+    C(beta_1, c2_1)              =  0.278
+    C(beta_2, shift)             =  0.240
+    C(spread, c1_1)              =  0.192
+    C(spread, c2_1)              =  0.184
+    C(beta_1, shift)             = -0.127
+
+---------------------------------------------------
+cs_bvert_11MeV_30tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_29-17_26_32_groomed.npz
+1 beam_expt_2018_01_29-17_31_33_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_bvert_11MeV_30tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_29-17_37_00_groomed.npz
+1 beam_expt_2018_01_29-17_42_01_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 147
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 748.44451
+    reduced chi-square = 3.38663
+    Akaike info crit   = 287.19899
+    Bayesian info crit = 314.66876
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03312677 +/- 0.000562 (1.70%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03420461 +/- 0.000718 (2.10%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -146.112879 +/- 9.524601 (6.52%) (init=-100)
+    spread:      8591.91571 +/- 13.43527 (0.16%) (init= 8000)
+    c1_1:        0.00118618 +/- 4.69e-05 (3.95%) (init= 0.01)
+    c2_1:       -1.03111701 +/- 0.040956 (3.97%) (init=-0.1)
+    c1_2:        0.00599912 +/- 4.98e-05 (0.83%) (init= 0.01)
+    c2_2:       -2.09126469 +/- 0.046771 (2.24%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.993
+    C(shift, spread)             = -0.923
+    C(c1_2, c2_2)                =  0.799
+    C(spread, c1_2)              = -0.593
+    C(spread, c2_2)              = -0.537
+    C(beta_2, c1_2)              =  0.473
+    C(shift, c1_1)               = -0.466
+    C(beta_2, spread)            = -0.451
+    C(shift, c2_1)               = -0.449
+    C(beta_2, c2_2)              =  0.414
+    C(shift, c1_2)               =  0.403
+    C(shift, c2_2)               =  0.374
+    C(beta_1, shift)             = -0.337
+    C(beta_2, shift)             =  0.321
+    C(spread, c1_1)              =  0.287
+    C(spread, c2_1)              =  0.277
+    C(beta_1, spread)            =  0.183
+    C(beta_1, c1_1)              =  0.155
+    C(beta_1, c2_1)              =  0.148
+
+---------------------------------------------------
+cs_bvert_11MeV_neg30tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_30-01_04_34_groomed.npz
+1 beam_expt_2018_01_30-01_09_35_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_bvert_11MeV_neg30tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_30-01_15_07_groomed.npz
+1 beam_expt_2018_01_30-01_20_08_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 192
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 711.79484
+    reduced chi-square = 3.22079
+    Akaike info crit   = 275.70151
+    Bayesian info crit = 303.17128
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03129202 +/- 0.000708 (2.26%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03392591 +/- 0.001336 (3.94%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -168.353955 +/- 12.88804 (7.66%) (init=-100)
+    spread:      8607.10003 +/- 20.98362 (0.24%) (init= 8000)
+    c1_1:        0.00063257 +/- 3.03e-05 (4.79%) (init= 0.01)
+    c2_1:       -0.97904235 +/- 0.047501 (4.85%) (init=-0.1)
+    c1_2:        0.00208181 +/- 3.23e-05 (1.55%) (init= 0.01)
+    c2_2:       -2.10238060 +/- 0.087817 (4.18%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.992
+    C(shift, spread)             = -0.931
+    C(c1_2, c2_2)                =  0.795
+    C(spread, c1_2)              = -0.655
+    C(spread, c2_2)              = -0.594
+    C(beta_2, spread)            = -0.555
+    C(shift, c1_2)               =  0.506
+    C(shift, c2_2)               =  0.463
+    C(beta_2, shift)             =  0.436
+    C(shift, c1_1)               = -0.417
+    C(shift, c2_1)               = -0.394
+    C(beta_2, c1_2)              =  0.385
+    C(beta_2, c2_2)              =  0.342
+    C(beta_1, shift)             = -0.258
+    C(beta_1, c1_1)              =  0.233
+    C(beta_1, c2_1)              =  0.220
+    C(spread, c1_1)              =  0.205
+    C(spread, c2_1)              =  0.191
+
+---------------------------------------------------
+cs_cpvert_11MeV_30tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_30-08_32_25_groomed.npz
+1 beam_expt_2018_01_30-08_37_26_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_cpvert_11MeV_30tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_30-08_42_44_groomed.npz
+1 beam_expt_2018_01_30-08_47_45_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 156
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 441.20980
+    reduced chi-square = 1.99642
+    Akaike info crit   = 166.17785
+    Bayesian info crit = 193.64763
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03091627 +/- 0.000477 (1.54%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03415173 +/- 0.001018 (2.98%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -144.400244 +/- 8.119115 (5.62%) (init=-100)
+    spread:      8555.33990 +/- 14.62012 (0.17%) (init= 8000)
+    c1_1:        0.00099411 +/- 2.78e-05 (2.80%) (init= 0.01)
+    c2_1:       -1.08496137 +/- 0.029876 (2.75%) (init=-0.1)
+    c1_2:        0.00465687 +/- 3.94e-05 (0.85%) (init= 0.01)
+    c2_2:       -2.11972840 +/- 0.044439 (2.10%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.993
+    C(shift, spread)             = -0.949
+    C(c1_2, c2_2)                =  0.801
+    C(spread, c1_2)              = -0.519
+    C(spread, c2_2)              = -0.447
+    C(shift, c1_2)               =  0.443
+    C(beta_2, spread)            = -0.435
+    C(beta_2, c1_2)              =  0.430
+    C(shift, c2_2)               =  0.387
+    C(beta_2, shift)             =  0.374
+    C(beta_2, c2_2)              =  0.370
+    C(shift, c1_1)               = -0.235
+    C(shift, c2_1)               = -0.223
+    C(beta_1, c1_1)              =  0.218
+    C(beta_1, c2_1)              =  0.203
+
+---------------------------------------------------
+cs_bvert_11MeV_15tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_31-00_18_50_groomed.npz
+1 beam_expt_2018_01_31-00_23_51_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_bvert_11MeV_15tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_31-00_29_33_groomed.npz
+1 beam_expt_2018_01_31-00_34_34_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 195
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 671.38658
+    reduced chi-square = 3.03795
+    Akaike info crit   = 262.31769
+    Bayesian info crit = 289.78746
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03045049 +/- 0.000629 (2.07%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03093888 +/- 0.001273 (4.12%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -146.620462 +/- 10.84323 (7.40%) (init=-100)
+    spread:      8521.43832 +/- 19.06773 (0.22%) (init= 8000)
+    c1_1:        0.00070012 +/- 2.93e-05 (4.18%) (init= 0.01)
+    c2_1:       -1.11957276 +/- 0.044097 (3.94%) (init=-0.1)
+    c1_2:        0.00305569 +/- 4.06e-05 (1.33%) (init= 0.01)
+    c2_2:       -1.92564690 +/- 0.066890 (3.47%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.993
+    C(shift, spread)             = -0.944
+    C(c1_2, c2_2)                =  0.845
+    C(beta_2, spread)            = -0.600
+    C(spread, c1_2)              = -0.515
+    C(beta_2, shift)             =  0.502
+    C(spread, c2_2)              = -0.478
+    C(shift, c1_2)               =  0.429
+    C(shift, c2_2)               =  0.401
+    C(shift, c1_1)               = -0.291
+    C(shift, c2_1)               = -0.279
+    C(beta_2, c1_2)              =  0.220
+    C(beta_2, c2_2)              =  0.207
+    C(beta_1, shift)             = -0.195
+    C(spread, c1_1)              =  0.110
+    C(spread, c2_1)              =  0.105
+    C(beta_1, c1_1)              =  0.101
+
+---------------------------------------------------
+cs_bvert_11MeV_neg15tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_31-07_38_36_groomed.npz
+1 beam_expt_2018_01_31-07_43_37_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_bvert_11MeV_neg15tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_31-07_48_57_groomed.npz
+1 beam_expt_2018_01_31-07_53_58_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 256
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 581.64736
+    reduced chi-square = 2.63189
+    Akaike info crit   = 229.46060
+    Bayesian info crit = 256.93037
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03238602 +/- 0.000562 (1.73%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03522318 +/- 0.001164 (3.31%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -139.313216 +/- 10.18525 (7.31%) (init=-100)
+    spread:      8547.83373 +/- 17.14113 (0.20%) (init= 8000)
+    c1_1:        0.00063559 +/- 2.43e-05 (3.83%) (init= 0.01)
+    c2_1:       -1.31985205 +/- 0.039289 (2.98%) (init=-0.1)
+    c1_2:        0.00340205 +/- 3.25e-05 (0.96%) (init= 0.01)
+    c2_2:       -2.10034188 +/- 0.058397 (2.78%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.993
+    C(shift, spread)             = -0.936
+    C(c1_2, c2_2)                =  0.759
+    C(spread, c1_2)              = -0.532
+    C(beta_2, spread)            = -0.472
+    C(spread, c2_2)              = -0.469
+    C(shift, c1_2)               =  0.426
+    C(beta_2, c1_2)              =  0.419
+    C(shift, c1_1)               = -0.396
+    C(beta_2, shift)             =  0.383
+    C(shift, c2_2)               =  0.381
+    C(shift, c2_1)               = -0.371
+    C(beta_2, c2_2)              =  0.357
+    C(beta_1, c1_1)              =  0.302
+    C(beta_1, c2_1)              =  0.283
+    C(beta_1, shift)             = -0.232
+    C(spread, c1_1)              =  0.175
+    C(spread, c2_1)              =  0.160
+
+---------------------------------------------------
+cs_cpvert_11MeV_15tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_31-14_51_49_groomed.npz
+1 beam_expt_2018_01_31-14_56_50_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_cpvert_11MeV_15tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_31-15_02_07_groomed.npz
+1 beam_expt_2018_01_31-15_07_08_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 147
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 538.77179
+    reduced chi-square = 2.43788
+    Akaike info crit   = 211.92555
+    Bayesian info crit = 239.39533
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03252573 +/- 0.000521 (1.60%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03163126 +/- 0.000911 (2.88%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -140.919559 +/- 9.081526 (6.44%) (init=-100)
+    spread:      8563.05001 +/- 13.68414 (0.16%) (init= 8000)
+    c1_1:        0.00104114 +/- 4.23e-05 (4.06%) (init= 0.01)
+    c2_1:       -1.10874836 +/- 0.042657 (3.85%) (init=-0.1)
+    c1_2:        0.00488630 +/- 4.48e-05 (0.92%) (init= 0.01)
+    c2_2:       -2.11952420 +/- 0.052899 (2.50%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.995
+    C(shift, spread)             = -0.925
+    C(c1_2, c2_2)                =  0.833
+    C(spread, c1_2)              = -0.546
+    C(spread, c2_2)              = -0.507
+    C(shift, c1_1)               = -0.493
+    C(shift, c2_1)               = -0.478
+    C(shift, c1_2)               =  0.395
+    C(shift, c2_2)               =  0.373
+    C(beta_2, spread)            = -0.369
+    C(beta_2, c1_2)              =  0.300
+    C(beta_1, c1_1)              =  0.296
+    C(beta_2, c2_2)              =  0.289
+    C(beta_1, c2_1)              =  0.284
+    C(spread, c1_1)              =  0.283
+    C(beta_2, shift)             =  0.275
+    C(spread, c2_1)              =  0.275
+    C(beta_1, shift)             = -0.244
+
+---------------------------------------------------
+cs_cpvert_11MeV_neg15tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_31-22_13_50_groomed.npz
+1 beam_expt_2018_01_31-22_18_51_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_cpvert_11MeV_neg15tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_31-22_25_17_groomed.npz
+1 beam_expt_2018_01_31-22_30_18_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 147
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 486.11536
+    reduced chi-square = 2.19962
+    Akaike info crit   = 188.37379
+    Bayesian info crit = 215.84356
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02889149 +/- 0.000615 (2.13%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03207799 +/- 0.001165 (3.63%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -161.409335 +/- 10.28526 (6.37%) (init=-100)
+    spread:      8539.95432 +/- 17.14230 (0.20%) (init= 8000)
+    c1_1:        0.00071966 +/- 2.60e-05 (3.62%) (init= 0.01)
+    c2_1:       -1.14942417 +/- 0.037895 (3.30%) (init=-0.1)
+    c1_2:        0.00265321 +/- 2.89e-05 (1.09%) (init= 0.01)
+    c2_2:       -2.18128523 +/- 0.061394 (2.81%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.993
+    C(shift, spread)             = -0.935
+    C(c1_2, c2_2)                =  0.799
+    C(spread, c1_2)              = -0.539
+    C(spread, c2_2)              = -0.486
+    C(beta_2, spread)            = -0.485
+    C(shift, c1_2)               =  0.428
+    C(beta_1, c1_1)              =  0.425
+    C(beta_1, c2_1)              =  0.397
+    C(shift, c2_2)               =  0.391
+    C(beta_2, shift)             =  0.389
+    C(beta_2, c1_2)              =  0.331
+    C(shift, c1_1)               = -0.302
+    C(beta_2, c2_2)              =  0.298
+    C(shift, c2_1)               = -0.285
+    C(spread, c1_1)              =  0.125
+    C(spread, c2_1)              =  0.117
+    C(beta_1, shift)             = -0.110
+--- 42.669118166 seconds ---
+
+calibration for cpvert cyrstal (2) with 11 mev beam
+
+
+---------------------------------------------------
+cs_bvert_11MeV_0tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_28-09_38_40_groomed.npz
+1 beam_expt_2018_01_28-09_43_41_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_bvert_11MeV_0tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_28-09_49_20_groomed.npz
+1 beam_expt_2018_01_28-09_54_21_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+---------------------------------------------------
+co_bvert_11MeV_0tilt
+found co
+loaded co_spec.npy
+0 beam_expt_2018_01_28-10_00_19_groomed.npz
+1 beam_expt_2018_01_28-10_05_20_groomed.npz
+
+bounds: meas_data_co 6000 11000
+
+performing minimization
+    triple spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 219
+    # data points      = 437
+    # variables        = 11
+    chi-square         = 1293.45163
+    reduced chi-square = 3.03627
+    Akaike info crit   = 496.20461
+    Bayesian info crit = 541.08388
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03183657 +/- 0.000636 (2.00%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03353660 +/- 0.001736 (5.18%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -212.964901 +/- 9.756134 (4.58%) (init=-100)
+    spread:      8895.53219 +/- 13.38975 (0.15%) (init= 8000)
+    c1_1:        0.00059675 +/- 2.63e-05 (4.40%) (init= 0.01)
+    c2_1:       -1.08124524 +/- 0.045635 (4.22%) (init=-0.1)
+    c1_2:        0.00257735 +/- 3.03e-05 (1.18%) (init= 0.01)
+    c2_2:       -2.28470845 +/- 0.061044 (2.67%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+    alpha_3:     0 (fixed)
+    beta_3:      0.03394887 +/- 0.000742 (2.19%) (init= 0.03)
+    gamma_3:     0 (fixed)
+    c1_3:        0.00242000 +/- 1.93e-05 (0.80%) (init= 0.01)
+    c2_3:       -1.72311698 +/- 0.037853 (2.20%) (init=-1)
+    y_scale_3:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  1.100)
+    C(c1_1, c2_1)                =  0.991
+    C(shift, spread)             = -0.920
+    C(c1_3, c2_3)                =  0.838
+    C(c1_2, c2_2)                =  0.784
+    C(spread, c1_3)              = -0.584
+    C(spread, c2_3)              = -0.532
+    C(shift, c1_1)               = -0.520
+    C(shift, c2_1)               = -0.485
+    C(beta_1, shift)             = -0.409
+    C(spread, beta_3)            = -0.403
+    C(shift, c1_3)               =  0.380
+    C(beta_3, c1_3)              =  0.358
+    C(shift, c2_3)               =  0.357
+    C(spread, c1_2)              = -0.352
+    C(spread, c1_1)              =  0.332
+    C(spread, c2_2)              = -0.313
+    C(spread, c2_1)              =  0.308
+    C(c1_2, c1_3)                =  0.302
+    C(beta_3, c2_3)              =  0.294
+    C(beta_2, c1_2)              =  0.290
+    C(shift, beta_3)             =  0.287
+    C(beta_2, c2_2)              =  0.285
+    C(c1_2, c2_3)                =  0.269
+    C(beta_1, c1_1)              =  0.261
+    C(c2_2, c1_3)                =  0.257
+    C(beta_1, spread)            =  0.245
+    C(beta_1, c2_1)              =  0.238
+    C(shift, c1_2)               =  0.231
+    C(c2_2, c2_3)                =  0.229
+    C(shift, c2_2)               =  0.216
+    C(c1_2, beta_3)              =  0.194
+    C(beta_2, spread)            = -0.185
+    C(c2_2, beta_3)              =  0.166
+    C(beta_2, c1_3)              =  0.153
+    C(beta_2, c2_3)              =  0.137
+    C(beta_2, shift)             =  0.126
+
+---------------------------------------------------
+cs_cpvert_11MeV_0tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_28-18_18_20_groomed.npz
+1 beam_expt_2018_01_28-18_23_21_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_cpvert_11MeV_0tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_28-18_28_55_groomed.npz
+1 beam_expt_2018_01_28-18_33_56_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 210
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 510.40985
+    reduced chi-square = 2.30955
+    Akaike info crit   = 199.54167
+    Bayesian info crit = 227.01145
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03201659 +/- 0.000557 (1.74%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03609156 +/- 0.002274 (6.30%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -150.024710 +/- 11.73644 (7.82%) (init=-100)
+    spread:      8824.51477 +/- 22.66409 (0.26%) (init= 8000)
+    c1_1:        0.00093896 +/- 2.73e-05 (2.91%) (init= 0.01)
+    c2_1:       -1.09207287 +/- 0.029412 (2.69%) (init=-0.1)
+    c1_2:        0.00197175 +/- 2.72e-05 (1.38%) (init= 0.01)
+    c2_2:       -2.11557240 +/- 0.065454 (3.09%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.991
+    C(shift, spread)             = -0.966
+    C(c1_2, c2_2)                =  0.846
+    C(spread, c1_2)              = -0.442
+    C(shift, c1_2)               =  0.402
+    C(beta_2, c2_2)              =  0.382
+    C(spread, c2_2)              = -0.364
+    C(beta_1, c1_1)              =  0.359
+    C(beta_2, c1_2)              =  0.358
+    C(beta_1, c2_1)              =  0.337
+    C(shift, c2_2)               =  0.335
+    C(shift, c1_1)               = -0.153
+    C(shift, c2_1)               = -0.132
+
+---------------------------------------------------
+cs_bvert_11MeV_45tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_29-01_45_49_groomed.npz
+1 beam_expt_2018_01_29-01_50_50_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_bvert_11MeV_45tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_29-01_56_30_groomed.npz
+1 beam_expt_2018_01_29-02_01_31_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 156
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 554.49761
+    reduced chi-square = 2.50904
+    Akaike info crit   = 218.51397
+    Bayesian info crit = 245.98375
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03395715 +/- 0.000652 (1.92%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03606338 +/- 0.001281 (3.55%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -155.538449 +/- 10.44112 (6.71%) (init=-100)
+    spread:      8658.85609 +/- 16.35262 (0.19%) (init= 8000)
+    c1_1:        0.00066758 +/- 2.40e-05 (3.60%) (init= 0.01)
+    c2_1:       -1.10664120 +/- 0.037293 (3.37%) (init=-0.1)
+    c1_2:        0.00390774 +/- 3.70e-05 (0.95%) (init= 0.01)
+    c2_2:       -2.06727084 +/- 0.052355 (2.53%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.993
+    C(shift, spread)             = -0.927
+    C(c1_2, c2_2)                =  0.802
+    C(spread, c1_2)              = -0.479
+    C(spread, c2_2)              = -0.425
+    C(beta_1, c1_1)              =  0.401
+    C(shift, c1_1)               = -0.388
+    C(beta_2, c1_2)              =  0.382
+    C(beta_1, c2_1)              =  0.373
+    C(shift, c2_1)               = -0.365
+    C(shift, c1_2)               =  0.360
+    C(beta_2, c2_2)              =  0.354
+    C(shift, c2_2)               =  0.327
+    C(beta_1, shift)             = -0.211
+    C(spread, c1_1)              =  0.196
+    C(spread, c2_1)              =  0.183
+    C(beta_2, spread)            = -0.140
+    C(beta_2, shift)             =  0.115
+
+---------------------------------------------------
+cs_bvert_11MeV_30tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_29-17_26_32_groomed.npz
+1 beam_expt_2018_01_29-17_31_33_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_bvert_11MeV_30tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_29-17_37_00_groomed.npz
+1 beam_expt_2018_01_29-17_42_01_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 174
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 755.91168
+    reduced chi-square = 3.42041
+    Akaike info crit   = 289.47238
+    Bayesian info crit = 316.94216
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03278054 +/- 0.000681 (2.08%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03225435 +/- 0.001130 (3.50%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -183.117999 +/- 10.84733 (5.92%) (init=-100)
+    spread:      8698.93301 +/- 16.87413 (0.19%) (init= 8000)
+    c1_1:        0.00079494 +/- 3.81e-05 (4.79%) (init= 0.01)
+    c2_1:       -1.11345611 +/- 0.048966 (4.40%) (init=-0.1)
+    c1_2:        0.00315746 +/- 3.68e-05 (1.16%) (init= 0.01)
+    c2_2:       -2.11559393 +/- 0.063920 (3.02%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.993
+    C(shift, spread)             = -0.927
+    C(c1_2, c2_2)                =  0.816
+    C(spread, c1_2)              = -0.586
+    C(spread, c2_2)              = -0.536
+    C(shift, c1_1)               = -0.529
+    C(shift, c2_1)               = -0.501
+    C(beta_2, spread)            = -0.473
+    C(shift, c1_2)               =  0.434
+    C(shift, c2_2)               =  0.404
+    C(beta_2, shift)             =  0.357
+    C(beta_2, c1_2)              =  0.342
+    C(beta_1, c1_1)              =  0.327
+    C(beta_1, shift)             = -0.323
+    C(beta_2, c2_2)              =  0.315
+    C(beta_1, c2_1)              =  0.307
+    C(spread, c1_1)              =  0.292
+    C(spread, c2_1)              =  0.276
+    C(beta_1, spread)            =  0.147
+
+---------------------------------------------------
+cs_bvert_11MeV_neg30tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_30-01_04_34_groomed.npz
+1 beam_expt_2018_01_30-01_09_35_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_bvert_11MeV_neg30tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_30-01_15_07_groomed.npz
+1 beam_expt_2018_01_30-01_20_08_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 147
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 666.81771
+    reduced chi-square = 3.01727
+    Akaike info crit   = 260.75399
+    Bayesian info crit = 288.22376
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03379267 +/- 0.000823 (2.44%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03262187 +/- 0.001409 (4.32%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -176.752828 +/- 14.14459 (8.00%) (init=-100)
+    spread:      8658.36543 +/- 20.17584 (0.23%) (init= 8000)
+    c1_1:        0.00059909 +/- 4.02e-05 (6.71%) (init= 0.01)
+    c2_1:       -1.15696340 +/- 0.067819 (5.86%) (init=-0.1)
+    c1_2:        0.00229265 +/- 3.17e-05 (1.38%) (init= 0.01)
+    c2_2:       -2.18588946 +/- 0.071462 (3.27%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.995
+    C(shift, spread)             = -0.923
+    C(c1_2, c2_2)                =  0.827
+    C(shift, c1_1)               = -0.643
+    C(shift, c2_1)               = -0.623
+    C(spread, c1_2)              = -0.569
+    C(spread, c2_2)              = -0.521
+    C(beta_1, c1_1)              =  0.455
+    C(beta_1, c2_1)              =  0.440
+    C(spread, c1_1)              =  0.403
+    C(spread, c2_1)              =  0.390
+    C(shift, c1_2)               =  0.389
+    C(beta_1, shift)             = -0.385
+    C(beta_2, c1_2)              =  0.375
+    C(shift, c2_2)               =  0.366
+    C(beta_2, c2_2)              =  0.352
+    C(beta_2, spread)            = -0.337
+    C(beta_2, shift)             =  0.241
+    C(beta_1, spread)            =  0.209
+
+---------------------------------------------------
+cs_cpvert_11MeV_30tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_30-08_32_25_groomed.npz
+1 beam_expt_2018_01_30-08_37_26_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_cpvert_11MeV_30tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_30-08_42_44_groomed.npz
+1 beam_expt_2018_01_30-08_47_45_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 231
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 675.58701
+    reduced chi-square = 3.05695
+    Akaike info crit   = 263.74593
+    Bayesian info crit = 291.21571
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03110603 +/- 0.000479 (1.54%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03439663 +/- 0.001331 (3.87%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -164.053027 +/- 9.719861 (5.92%) (init=-100)
+    spread:      8664.00623 +/- 16.87093 (0.19%) (init= 8000)
+    c1_1:        0.00098574 +/- 3.54e-05 (3.59%) (init= 0.01)
+    c2_1:       -1.07277678 +/- 0.037232 (3.47%) (init=-0.1)
+    c1_2:        0.00447351 +/- 4.94e-05 (1.11%) (init= 0.01)
+    c2_2:       -1.97066976 +/- 0.063478 (3.22%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.993
+    C(shift, spread)             = -0.941
+    C(c1_2, c2_2)                =  0.823
+    C(spread, c1_2)              = -0.576
+    C(spread, c2_2)              = -0.527
+    C(shift, c1_2)               =  0.473
+    C(shift, c2_2)               =  0.436
+    C(beta_2, c1_2)              =  0.400
+    C(beta_2, c2_2)              =  0.380
+    C(beta_2, spread)            = -0.378
+    C(shift, c1_1)               = -0.377
+    C(shift, c2_1)               = -0.358
+    C(beta_2, shift)             =  0.315
+    C(beta_1, c1_1)              =  0.263
+    C(beta_1, c2_1)              =  0.245
+    C(beta_1, shift)             = -0.205
+    C(spread, c1_1)              =  0.161
+    C(spread, c2_1)              =  0.152
+
+---------------------------------------------------
+cs_cpvert_11MeV_neg30tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_30-15_48_42_groomed.npz
+1 beam_expt_2018_01_30-15_53_43_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_cpvert_11MeV_neg30tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_30-15_59_10_groomed.npz
+1 beam_expt_2018_01_30-16_04_11_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 240
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 1153.16739
+    reduced chi-square = 5.21795
+    Akaike info crit   = 386.18896
+    Bayesian info crit = 413.65874
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03547738 +/- 0.000970 (2.73%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03616336 +/- 0.001577 (4.36%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -118.087236 +/- 17.30924 (14.66%) (init=-100)
+    spread:      8550.68348 +/- 26.57954 (0.31%) (init= 8000)
+    c1_1:        0.00057519 +/- 2.94e-05 (5.11%) (init= 0.01)
+    c2_1:       -1.30719270 +/- 0.050618 (3.87%) (init=-0.1)
+    c1_2:        0.00317102 +/- 3.91e-05 (1.23%) (init= 0.01)
+    c2_2:       -2.04238621 +/- 0.078624 (3.85%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.993
+    C(shift, spread)             = -0.924
+    C(c1_2, c2_2)                =  0.795
+    C(beta_2, c1_2)              =  0.392
+    C(spread, c1_2)              = -0.385
+    C(beta_2, c2_2)              =  0.361
+    C(beta_1, shift)             = -0.354
+    C(spread, c2_2)              = -0.342
+    C(shift, c1_1)               = -0.290
+    C(shift, c1_2)               =  0.287
+    C(shift, c2_1)               = -0.263
+    C(shift, c2_2)               =  0.262
+    C(beta_1, spread)            =  0.156
+    C(beta_1, c1_1)              =  0.138
+    C(beta_1, c2_1)              =  0.128
+    C(spread, c1_1)              =  0.124
+    C(spread, c2_1)              =  0.105
+
+---------------------------------------------------
+cs_bvert_11MeV_15tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_31-00_18_50_groomed.npz
+1 beam_expt_2018_01_31-00_23_51_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_bvert_11MeV_15tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_31-00_29_33_groomed.npz
+1 beam_expt_2018_01_31-00_34_34_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 156
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 601.84187
+    reduced chi-square = 2.72327
+    Akaike info crit   = 237.27646
+    Bayesian info crit = 264.74623
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03363866 +/- 0.000646 (1.92%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03590563 +/- 0.000996 (2.77%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -162.138809 +/- 10.24351 (6.32%) (init=-100)
+    spread:      8541.30886 +/- 17.79880 (0.21%) (init= 8000)
+    c1_1:        0.00084266 +/- 3.13e-05 (3.72%) (init= 0.01)
+    c2_1:       -1.07171038 +/- 0.038798 (3.62%) (init=-0.1)
+    c1_2:        0.00333903 +/- 4.39e-05 (1.32%) (init= 0.01)
+    c2_2:       -2.07642188 +/- 0.070938 (3.42%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.993
+    C(shift, spread)             = -0.942
+    C(c1_2, c2_2)                =  0.837
+    C(spread, c1_2)              = -0.722
+    C(spread, c2_2)              = -0.660
+    C(shift, c1_2)               =  0.593
+    C(beta_2, spread)            = -0.565
+    C(shift, c2_2)               =  0.546
+    C(beta_2, c1_2)              =  0.485
+    C(beta_2, shift)             =  0.472
+    C(beta_2, c2_2)              =  0.435
+    C(beta_1, c1_1)              =  0.425
+    C(beta_1, c2_1)              =  0.396
+    C(shift, c1_1)               = -0.335
+    C(shift, c2_1)               = -0.317
+    C(spread, c1_1)              =  0.136
+    C(spread, c2_1)              =  0.127
+    C(beta_1, c1_2)              =  0.101
+
+---------------------------------------------------
+cs_cpvert_11MeV_15tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_31-14_51_49_groomed.npz
+1 beam_expt_2018_01_31-14_56_50_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_cpvert_11MeV_15tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_31-15_02_07_groomed.npz
+1 beam_expt_2018_01_31-15_07_08_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 156
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 599.65517
+    reduced chi-square = 2.71337
+    Akaike info crit   = 236.44290
+    Bayesian info crit = 263.91268
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03330372 +/- 0.000526 (1.58%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03183982 +/- 0.001050 (3.30%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -174.123117 +/- 8.796084 (5.05%) (init=-100)
+    spread:      8562.77802 +/- 14.46224 (0.17%) (init= 8000)
+    c1_1:        0.00102902 +/- 3.24e-05 (3.15%) (init= 0.01)
+    c2_1:       -1.03590082 +/- 0.032498 (3.14%) (init=-0.1)
+    c1_2:        0.00400983 +/- 4.30e-05 (1.07%) (init= 0.01)
+    c2_2:       -2.02489606 +/- 0.064548 (3.19%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.992
+    C(shift, spread)             = -0.933
+    C(c1_2, c2_2)                =  0.814
+    C(spread, c1_2)              = -0.618
+    C(spread, c2_2)              = -0.564
+    C(shift, c1_2)               =  0.482
+    C(shift, c2_2)               =  0.443
+    C(beta_2, c1_2)              =  0.407
+    C(beta_2, spread)            = -0.382
+    C(beta_2, c2_2)              =  0.370
+    C(shift, c1_1)               = -0.368
+    C(shift, c2_1)               = -0.348
+    C(beta_2, shift)             =  0.304
+    C(beta_1, c1_1)              =  0.248
+    C(beta_1, c2_1)              =  0.232
+    C(beta_1, shift)             = -0.224
+    C(spread, c1_1)              =  0.169
+    C(spread, c2_1)              =  0.158
+
+---------------------------------------------------
+cs_cpvert_11MeV_neg15tilt
+loaded cs_spec.npy
+0 beam_expt_2018_01_31-22_13_50_groomed.npz
+1 beam_expt_2018_01_31-22_18_51_groomed.npz
+
+bounds: meas_data_cs 2500 4500
+
+---------------------------------------------------
+na_cpvert_11MeV_neg15tilt
+loaded na_spec.npy
+0 beam_expt_2018_01_31-22_25_17_groomed.npz
+1 beam_expt_2018_01_31-22_30_18_groomed.npz
+
+bounds: meas_data_na 6000 9500
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 147
+    # data points      = 229
+    # variables        = 8
+    chi-square         = 594.78639
+    reduced chi-square = 2.69134
+    Akaike info crit   = 234.57599
+    Bayesian info crit = 262.04577
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03332131 +/- 0.000694 (2.08%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03453514 +/- 0.001231 (3.57%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -167.893783 +/- 10.73747 (6.40%) (init=-100)
+    spread:      8614.20550 +/- 17.58125 (0.20%) (init= 8000)
+    c1_1:        0.00074399 +/- 2.99e-05 (4.02%) (init= 0.01)
+    c2_1:       -0.99569608 +/- 0.042863 (4.30%) (init=-0.1)
+    c1_2:        0.00325956 +/- 3.89e-05 (1.19%) (init= 0.01)
+    c2_2:       -2.05488613 +/- 0.071898 (3.50%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.992
+    C(shift, spread)             = -0.933
+    C(c1_2, c2_2)                =  0.833
+    C(spread, c1_2)              = -0.656
+    C(spread, c2_2)              = -0.607
+    C(beta_2, spread)            = -0.532
+    C(shift, c1_2)               =  0.510
+    C(shift, c2_2)               =  0.476
+    C(beta_2, c1_2)              =  0.443
+    C(beta_2, shift)             =  0.420
+    C(beta_2, c2_2)              =  0.405
+    C(shift, c1_1)               = -0.355
+    C(shift, c2_1)               = -0.335
+    C(beta_1, c1_1)              =  0.308
+    C(beta_1, c2_1)              =  0.281
+    C(beta_1, shift)             = -0.217
+    C(spread, c1_1)              =  0.169
+    C(spread, c2_1)              =  0.160
+--- 84.9341189861 seconds ---
+
+calibration for bvert crystal (1) with 4 mev beam
+
+---------------------------------------------------
+cs_bvert_4MeV_0tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_01-23_50_20_groomed.npz
+1 beam_expt_2018_02_01-23_55_21_groomed.npz
+
+bounds: meas_data_cs 7000 14000
+
+---------------------------------------------------
+na_bvert_4MeV_0tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_02-00_02_05_groomed.npz
+1 beam_expt_2018_02_02-00_07_06_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 167
+    # data points      = 258
+    # variables        = 8
+    chi-square         = 797.24318
+    reduced chi-square = 3.18897
+    Akaike info crit   = 307.07564
+    Bayesian info crit = 335.49932
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02760198 +/- 0.000661 (2.40%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03399502 +/- 0.001523 (4.48%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -497.487326 +/- 38.92715 (7.82%) (init=-100)
+    spread:      25609.4054 +/- 70.82425 (0.28%) (init= 25000)
+    c1_1:        0.00057718 +/- 2.83e-05 (4.91%) (init= 0.01)
+    c2_1:       -1.01024872 +/- 0.051502 (5.10%) (init=-0.1)
+    c1_2:        0.00170770 +/- 2.85e-05 (1.67%) (init= 0.01)
+    c2_2:       -2.01907098 +/- 0.117679 (5.83%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.992
+    C(shift, spread)             = -0.951
+    C(c1_2, c2_2)                =  0.823
+    C(spread, c1_2)              = -0.688
+    C(spread, c2_2)              = -0.643
+    C(shift, c1_2)               =  0.591
+    C(shift, c2_2)               =  0.553
+    C(beta_2, spread)            = -0.541
+    C(beta_2, shift)             =  0.469
+    C(beta_2, c1_2)              =  0.462
+    C(beta_2, c2_2)              =  0.418
+    C(shift, c1_1)               = -0.304
+    C(shift, c2_1)               = -0.285
+    C(beta_1, c1_1)              =  0.281
+    C(beta_1, c2_1)              =  0.258
+    C(beta_1, shift)             = -0.123
+    C(spread, c1_1)              =  0.107
+
+---------------------------------------------------
+cs_cpvert_4MeV_0tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_02-06_30_30_groomed.npz
+1 beam_expt_2018_02_02-06_35_31_groomed.npz
+
+bounds: meas_data_cs 7000 14000
+
+---------------------------------------------------
+na_cpvert_4MeV_0tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_02-06_41_50_groomed.npz
+1 beam_expt_2018_02_02-06_46_51_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 174
+    # data points      = 258
+    # variables        = 8
+    chi-square         = 837.77145
+    reduced chi-square = 3.35109
+    Akaike info crit   = 319.86872
+    Bayesian info crit = 348.29240
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02866909 +/- 0.000665 (2.32%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.02779212 +/- 0.001040 (3.74%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -549.691680 +/- 29.33919 (5.34%) (init=-100)
+    spread:      25909.4297 +/- 49.87787 (0.19%) (init= 25000)
+    c1_1:        0.00065358 +/- 2.30e-05 (3.52%) (init= 0.01)
+    c2_1:       -1.02785106 +/- 0.035944 (3.50%) (init=-0.1)
+    c1_2:        0.00237410 +/- 3.08e-05 (1.30%) (init= 0.01)
+    c2_2:       -1.90738641 +/- 0.100572 (5.27%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.988
+    C(shift, spread)             = -0.938
+    C(c1_2, c2_2)                =  0.720
+    C(spread, c1_2)              = -0.625
+    C(spread, c2_2)              = -0.568
+    C(shift, c1_2)               =  0.504
+    C(beta_2, spread)            = -0.469
+    C(shift, c2_2)               =  0.458
+    C(beta_2, c1_2)              =  0.390
+    C(beta_2, shift)             =  0.384
+    C(beta_2, c2_2)              =  0.322
+    C(shift, c1_1)               = -0.280
+    C(shift, c2_1)               = -0.251
+    C(beta_1, shift)             = -0.193
+    C(beta_1, c1_1)              =  0.172
+    C(beta_1, c2_1)              =  0.157
+    C(spread, c1_1)              =  0.106
+
+---------------------------------------------------
+cs_bvert_4MeV_45tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_02-12_10_28_groomed.npz
+1 beam_expt_2018_02_02-12_15_29_groomed.npz
+
+bounds: meas_data_cs 7000 14000
+
+---------------------------------------------------
+na_bvert_4MeV_45tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_02-12_20_41_groomed.npz
+1 beam_expt_2018_02_02-12_25_42_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 156
+    # data points      = 258
+    # variables        = 8
+    chi-square         = 818.09685
+    reduced chi-square = 3.27239
+    Akaike info crit   = 313.73746
+    Bayesian info crit = 342.16113
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02802399 +/- 0.000472 (1.68%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.02949776 +/- 0.000947 (3.21%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -566.568446 +/- 25.96371 (4.58%) (init=-100)
+    spread:      25832.8946 +/- 43.37059 (0.17%) (init= 25000)
+    c1_1:        0.00124338 +/- 3.54e-05 (2.85%) (init= 0.01)
+    c2_1:       -0.95511688 +/- 0.028744 (3.01%) (init=-0.1)
+    c1_2:        0.00498658 +/- 5.61e-05 (1.12%) (init= 0.01)
+    c2_2:       -2.18827453 +/- 0.070949 (3.24%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.990
+    C(shift, spread)             = -0.935
+    C(c1_2, c2_2)                =  0.817
+    C(spread, c1_2)              = -0.644
+    C(spread, c2_2)              = -0.589
+    C(beta_2, spread)            = -0.578
+    C(shift, c1_2)               =  0.511
+    C(shift, c2_2)               =  0.470
+    C(beta_2, shift)             =  0.464
+    C(beta_2, c1_2)              =  0.367
+    C(beta_2, c2_2)              =  0.318
+    C(shift, c1_1)               = -0.301
+    C(beta_1, shift)             = -0.290
+    C(shift, c2_1)               = -0.277
+    C(beta_1, c1_1)              =  0.198
+    C(beta_1, c2_1)              =  0.180
+    C(spread, c1_1)              =  0.119
+    C(spread, c2_1)              =  0.106
+    C(beta_1, spread)            =  0.104
+
+---------------------------------------------------
+cs_bvert_4MeV_neg45tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_02-17_27_07_groomed.npz
+1 beam_expt_2018_02_02-17_32_08_groomed.npz
+
+bounds: meas_data_cs 7000 14000
+
+---------------------------------------------------
+na_bvert_4MeV_neg45tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_02-17_38_00_groomed.npz
+1 beam_expt_2018_02_02-17_43_01_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 183
+    # data points      = 258
+    # variables        = 8
+    chi-square         = 637.03516
+    reduced chi-square = 2.54814
+    Akaike info crit   = 249.19724
+    Bayesian info crit = 277.62092
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02934550 +/- 0.000720 (2.45%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03026822 +/- 0.000943 (3.12%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -552.718397 +/- 31.80980 (5.76%) (init=-100)
+    spread:      25895.0334 +/- 51.22067 (0.20%) (init= 25000)
+    c1_1:        0.00049099 +/- 1.79e-05 (3.64%) (init= 0.01)
+    c2_1:       -1.04013071 +/- 0.035379 (3.40%) (init=-0.1)
+    c1_2:        0.00288951 +/- 3.63e-05 (1.26%) (init= 0.01)
+    c2_2:       -2.01842376 +/- 0.085248 (4.22%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.990
+    C(shift, spread)             = -0.929
+    C(c1_2, c2_2)                =  0.783
+    C(spread, c1_2)              = -0.641
+    C(spread, c2_2)              = -0.585
+    C(shift, c1_2)               =  0.489
+    C(shift, c2_2)               =  0.449
+    C(beta_2, c1_2)              =  0.428
+    C(beta_2, spread)            = -0.378
+    C(beta_2, c2_2)              =  0.372
+    C(beta_1, shift)             = -0.318
+    C(shift, c1_1)               = -0.314
+    C(beta_2, shift)             =  0.300
+    C(shift, c2_1)               = -0.285
+    C(beta_1, spread)            =  0.141
+    C(spread, c1_1)              =  0.137
+    C(beta_1, c1_1)              =  0.135
+    C(beta_1, c2_1)              =  0.124
+    C(spread, c2_1)              =  0.118
+
+---------------------------------------------------
+cs_bvert_4MeV_30tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_02-22_39_55_groomed.npz
+1 beam_expt_2018_02_02-22_44_56_groomed.npz
+
+bounds: meas_data_cs 7000 14000
+
+---------------------------------------------------
+na_bvert_4MeV_30tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_02-22_51_17_groomed.npz
+1 beam_expt_2018_02_02-22_56_18_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 174
+    # data points      = 258
+    # variables        = 8
+    chi-square         = 579.44435
+    reduced chi-square = 2.31778
+    Akaike info crit   = 224.75039
+    Bayesian info crit = 253.17407
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02686880 +/- 0.000610 (2.27%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.02989476 +/- 0.001281 (4.29%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -511.345019 +/- 29.36106 (5.74%) (init=-100)
+    spread:      25886.8233 +/- 51.36428 (0.20%) (init= 25000)
+    c1_1:        0.00068775 +/- 2.42e-05 (3.51%) (init= 0.01)
+    c2_1:       -1.02503611 +/- 0.035053 (3.42%) (init=-0.1)
+    c1_2:        0.00210879 +/- 2.49e-05 (1.18%) (init= 0.01)
+    c2_2:       -2.38169055 +/- 0.088089 (3.70%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.989
+    C(shift, spread)             = -0.943
+    C(c1_2, c2_2)                =  0.786
+    C(spread, c1_2)              = -0.567
+    C(beta_2, spread)            = -0.535
+    C(spread, c2_2)              = -0.527
+    C(shift, c1_2)               =  0.469
+    C(beta_2, shift)             =  0.446
+    C(shift, c2_2)               =  0.438
+    C(beta_2, c1_2)              =  0.290
+    C(shift, c1_1)               = -0.273
+    C(beta_2, c2_2)              =  0.267
+    C(beta_1, shift)             = -0.248
+    C(shift, c2_1)               = -0.246
+    C(beta_1, c1_1)              =  0.106
+
+---------------------------------------------------
+cs_bvert_4MeV_neg30tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_03-07_25_20_groomed.npz
+1 beam_expt_2018_02_03-07_30_21_groomed.npz
+
+bounds: meas_data_cs 7000 14000
+
+---------------------------------------------------
+na_bvert_4MeV_neg30tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_03-07_35_38_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 156
+    # data points      = 258
+    # variables        = 8
+    chi-square         = 884.38959
+    reduced chi-square = 3.53756
+    Akaike info crit   = 333.84003
+    Bayesian info crit = 362.26370
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02765877 +/- 0.000683 (2.47%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.02932366 +/- 0.001275 (4.35%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -513.249416 +/- 32.50629 (6.33%) (init=-100)
+    spread:      25867.8416 +/- 56.39178 (0.22%) (init= 25000)
+    c1_1:        0.00072773 +/- 2.67e-05 (3.67%) (init= 0.01)
+    c2_1:       -1.04667970 +/- 0.038356 (3.66%) (init=-0.1)
+    c1_2:        0.00189986 +/- 2.76e-05 (1.45%) (init= 0.01)
+    c2_2:       -1.97767179 +/- 0.097930 (4.95%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.990
+    C(shift, spread)             = -0.942
+    C(c1_2, c2_2)                =  0.784
+    C(spread, c1_2)              = -0.612
+    C(spread, c2_2)              = -0.563
+    C(shift, c1_2)               =  0.503
+    C(shift, c2_2)               =  0.464
+    C(beta_2, spread)            = -0.356
+    C(beta_2, c1_2)              =  0.329
+    C(beta_2, shift)             =  0.298
+    C(beta_2, c2_2)              =  0.292
+    C(shift, c1_1)               = -0.227
+    C(shift, c2_1)               = -0.208
+    C(beta_1, shift)             = -0.207
+    C(beta_1, c1_1)              =  0.188
+    C(beta_1, c2_1)              =  0.172
+
+---------------------------------------------------
+cs_cpvert_4MeV_30tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_03-13_34_43_groomed.npz
+1 beam_expt_2018_02_03-13_39_44_groomed.npz
+
+bounds: meas_data_cs 7000 14000
+
+---------------------------------------------------
+na_cpvert_4MeV_30tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_03-13_45_01_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 147
+    # data points      = 258
+    # variables        = 8
+    chi-square         = 682.62043
+    reduced chi-square = 2.73048
+    Akaike info crit   = 267.02868
+    Bayesian info crit = 295.45236
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02760310 +/- 0.000533 (1.93%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03477358 +/- 0.001482 (4.26%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -498.296617 +/- 37.06363 (7.44%) (init=-100)
+    spread:      25831.8052 +/- 70.21643 (0.27%) (init= 25000)
+    c1_1:        0.00097970 +/- 2.71e-05 (2.76%) (init= 0.01)
+    c2_1:       -1.01191571 +/- 0.027567 (2.72%) (init=-0.1)
+    c1_2:        0.00175420 +/- 2.66e-05 (1.52%) (init= 0.01)
+    c2_2:       -1.97538484 +/- 0.094936 (4.81%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.987
+    C(shift, spread)             = -0.962
+    C(c1_2, c2_2)                =  0.809
+    C(spread, c1_2)              = -0.586
+    C(spread, c2_2)              = -0.539
+    C(shift, c1_2)               =  0.525
+    C(shift, c2_2)               =  0.484
+    C(beta_2, spread)            = -0.463
+    C(beta_1, c1_1)              =  0.436
+    C(beta_2, shift)             =  0.419
+    C(beta_1, c2_1)              =  0.393
+    C(beta_2, c1_2)              =  0.338
+    C(beta_2, c2_2)              =  0.301
+    C(shift, c1_1)               = -0.128
+    C(beta_1, c1_2)              =  0.106
+    C(c2_1, c1_2)                =  0.104
+    C(c1_1, c1_2)                =  0.101
+
+---------------------------------------------------
+cs_bvert_4MeV_15tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_04-00_02_48_groomed.npz
+1 beam_expt_2018_02_04-00_07_49_groomed.npz
+
+bounds: meas_data_cs 7000 14000
+
+---------------------------------------------------
+na_bvert_4MeV_15tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_04-00_14_25_groomed.npz
+1 beam_expt_2018_02_04-00_19_27_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 201
+    # data points      = 258
+    # variables        = 8
+    chi-square         = 659.96968
+    reduced chi-square = 2.63988
+    Akaike info crit   = 258.32245
+    Bayesian info crit = 286.74613
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02775396 +/- 0.000550 (1.98%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.02916037 +/- 0.001449 (4.97%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -506.336940 +/- 36.81597 (7.27%) (init=-100)
+    spread:      25787.2361 +/- 71.76528 (0.28%) (init= 25000)
+    c1_1:        0.00063432 +/- 1.76e-05 (2.77%) (init= 0.01)
+    c2_1:       -1.07465647 +/- 0.027650 (2.57%) (init=-0.1)
+    c1_2:        0.00184633 +/- 3.08e-05 (1.67%) (init= 0.01)
+    c2_2:       -2.01761665 +/- 0.109173 (5.41%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.988
+    C(shift, spread)             = -0.970
+    C(c1_2, c2_2)                =  0.778
+    C(beta_2, spread)            = -0.631
+    C(beta_2, shift)             =  0.581
+    C(spread, c1_2)              = -0.563
+    C(shift, c1_2)               =  0.517
+    C(spread, c2_2)              = -0.513
+    C(shift, c2_2)               =  0.472
+    C(beta_1, c1_1)              =  0.333
+    C(beta_1, c2_1)              =  0.308
+    C(beta_2, c1_2)              =  0.294
+    C(beta_2, c2_2)              =  0.255
+    C(beta_2, c2_1)              =  0.120
+    C(beta_1, spread)            = -0.117
+    C(beta_2, c1_1)              =  0.116
+    C(beta_1, beta_2)            =  0.114
+    C(c2_1, c1_2)                =  0.109
+    C(c1_1, c1_2)                =  0.106
+    C(beta_1, c1_2)              =  0.103
+
+---------------------------------------------------
+cs_bvert_4MeV_neg15tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_04-05_36_53_groomed.npz
+1 beam_expt_2018_02_04-05_41_54_groomed.npz
+
+bounds: meas_data_cs 7000 14000
+
+---------------------------------------------------
+na_bvert_4MeV_neg15tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_04-05_49_11_groomed.npz
+1 beam_expt_2018_02_04-05_54_12_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 186
+    # data points      = 258
+    # variables        = 8
+    chi-square         = 855.66423
+    reduced chi-square = 3.42266
+    Akaike info crit   = 325.32096
+    Bayesian info crit = 353.74464
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02657381 +/- 0.000953 (3.59%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03054876 +/- 0.001831 (5.99%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -637.117651 +/- 40.61711 (6.38%) (init=-100)
+    spread:      26043.2840 +/- 72.78663 (0.28%) (init= 25000)
+    c1_1:        0.00034846 +/- 1.57e-05 (4.50%) (init= 0.01)
+    c2_1:       -1.13968327 +/- 0.046682 (4.10%) (init=-0.1)
+    c1_2:        0.00139777 +/- 2.65e-05 (1.90%) (init= 0.01)
+    c2_2:       -2.48505479 +/- 0.111951 (4.51%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.990
+    C(shift, spread)             = -0.950
+    C(c1_2, c2_2)                =  0.826
+    C(spread, c1_2)              = -0.644
+    C(spread, c2_2)              = -0.579
+    C(shift, c1_2)               =  0.548
+    C(shift, c2_2)               =  0.496
+    C(beta_2, spread)            = -0.433
+    C(beta_2, shift)             =  0.373
+    C(beta_2, c1_2)              =  0.370
+    C(beta_2, c2_2)              =  0.327
+    C(shift, c1_1)               = -0.167
+    C(shift, c2_1)               = -0.149
+    C(beta_1, shift)             = -0.137
+    C(beta_1, c1_1)              =  0.131
+    C(beta_1, c2_1)              =  0.123
+
+---------------------------------------------------
+cs_bvert_4MeV_neg15tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_04-05_36_53_groomed.npz
+1 beam_expt_2018_02_04-05_41_54_groomed.npz
+
+bounds: meas_data_cs 7000 14000
+
+---------------------------------------------------
+na_bvert_4MeV_neg15tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_04-05_49_11_groomed.npz
+1 beam_expt_2018_02_04-05_54_12_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 186
+    # data points      = 258
+    # variables        = 8
+    chi-square         = 855.66423
+    reduced chi-square = 3.42266
+    Akaike info crit   = 325.32096
+    Bayesian info crit = 353.74464
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02657381 +/- 0.000953 (3.59%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03054876 +/- 0.001831 (5.99%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -637.117651 +/- 40.61711 (6.38%) (init=-100)
+    spread:      26043.2840 +/- 72.78663 (0.28%) (init= 25000)
+    c1_1:        0.00034846 +/- 1.57e-05 (4.50%) (init= 0.01)
+    c2_1:       -1.13968327 +/- 0.046682 (4.10%) (init=-0.1)
+    c1_2:        0.00139777 +/- 2.65e-05 (1.90%) (init= 0.01)
+    c2_2:       -2.48505479 +/- 0.111951 (4.51%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.990
+    C(shift, spread)             = -0.950
+    C(c1_2, c2_2)                =  0.826
+    C(spread, c1_2)              = -0.644
+    C(spread, c2_2)              = -0.579
+    C(shift, c1_2)               =  0.548
+    C(shift, c2_2)               =  0.496
+    C(beta_2, spread)            = -0.433
+    C(beta_2, shift)             =  0.373
+    C(beta_2, c1_2)              =  0.370
+    C(beta_2, c2_2)              =  0.327
+    C(shift, c1_1)               = -0.167
+    C(shift, c2_1)               = -0.149
+    C(beta_1, shift)             = -0.137
+    C(beta_1, c1_1)              =  0.131
+    C(beta_1, c2_1)              =  0.123
+
+---------------------------------------------------
+cs_cpvert_4MeV_15tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_04-11_05_50_groomed.npz
+1 beam_expt_2018_02_04-11_10_51_groomed.npz
+
+bounds: meas_data_cs 7000 14000
+
+---------------------------------------------------
+na_cpvert_4MeV_15tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_04-11_16_13_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 185
+    # data points      = 258
+    # variables        = 8
+    chi-square         = 735.72377
+    reduced chi-square = 2.94290
+    Akaike info crit   = 286.35695
+    Bayesian info crit = 314.78062
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02761234 +/- 0.000563 (2.04%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.02966552 +/- 0.001395 (4.70%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -496.693385 +/- 33.87504 (6.82%) (init=-100)
+    spread:      25831.3376 +/- 63.61858 (0.25%) (init= 25000)
+    c1_1:        0.00075437 +/- 2.12e-05 (2.82%) (init= 0.01)
+    c2_1:       -1.05746987 +/- 0.028224 (2.67%) (init=-0.1)
+    c1_2:        0.00179797 +/- 2.81e-05 (1.56%) (init= 0.01)
+    c2_2:       -2.05427696 +/- 0.120760 (5.88%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.988
+    C(shift, spread)             = -0.959
+    C(c1_2, c2_2)                =  0.772
+    C(spread, c1_2)              = -0.604
+    C(spread, c2_2)              = -0.565
+    C(shift, c1_2)               =  0.535
+    C(shift, c2_2)               =  0.501
+    C(beta_2, spread)            = -0.378
+    C(beta_2, shift)             =  0.339
+    C(beta_2, c1_2)              =  0.337
+    C(beta_2, c2_2)              =  0.297
+    C(beta_1, shift)             = -0.190
+    C(beta_1, c1_1)              =  0.126
+    C(beta_1, c2_1)              =  0.112
+
+---------------------------------------------------
+cs_bvert_cpvert_end
+loaded cs_spec.npy
+0 beam_expt_2018_02_04-21_20_00_groomed.npz
+1 beam_expt_2018_02_04-21_25_01_groomed.npz
+2 beam_expt_2018_02_04-21_30_02_groomed.npz
+
+bounds: meas_data_cs 7000 14000
+
+---------------------------------------------------
+na_bvert_cpvert_end
+loaded na_spec.npy
+0 beam_expt_2018_02_04-21_35_28_groomed.npz
+1 beam_expt_2018_02_04-21_40_29_groomed.npz
+2 beam_expt_2018_02_04-21_45_30_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+---------------------------------------------------
+co_bvert_cpvert_end
+found co
+loaded co_spec.npy
+0 beam_expt_2018_02_04-21_51_48_groomed.npz
+1 beam_expt_2018_02_04-21_56_49_groomed.npz
+2 beam_expt_2018_02_04-22_01_50_groomed.npz
+3 beam_expt_2018_02_04-22_06_51_groomed.npz
+
+bounds: meas_data_co 15000 31000
+
+performing minimization
+    triple spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 255
+    # data points      = 487
+    # variables        = 11
+    chi-square         = 3131.43984
+    reduced chi-square = 6.57866
+    Akaike info crit   = 928.29924
+    Bayesian info crit = 974.37015
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02635745 +/- 0.000731 (2.77%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03027362 +/- 0.000895 (2.96%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -564.197975 +/- 22.51134 (3.99%) (init=-100)
+    spread:      25881.8188 +/- 28.85936 (0.11%) (init= 25000)
+    c1_1:        0.00136254 +/- 5.01e-05 (3.68%) (init= 0.01)
+    c2_1:       -0.99817720 +/- 0.037614 (3.77%) (init=-0.1)
+    c1_2:        0.00658829 +/- 5.98e-05 (0.91%) (init= 0.01)
+    c2_2:       -2.20296530 +/- 0.065624 (2.98%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+    alpha_3:     0 (fixed)
+    beta_3:      0.03234538 +/- 0.000577 (1.78%) (init= 0.03)
+    gamma_3:     0 (fixed)
+    c1_3:        0.00687558 +/- 3.37e-05 (0.49%) (init= 0.01)
+    c2_3:       -1.63527388 +/- 0.017395 (1.06%) (init=-1)
+    y_scale_3:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.989
+    C(shift, spread)             = -0.927
+    C(c1_3, c2_3)                =  0.854
+    C(c1_2, c2_2)                =  0.695
+    C(beta_1, shift)             = -0.510
+    C(spread, c1_3)              = -0.474
+    C(spread, c2_3)              = -0.451
+    C(shift, c1_1)               = -0.421
+    C(shift, c2_1)               = -0.392
+    C(beta_3, c1_3)              =  0.362
+    C(beta_1, spread)            =  0.358
+    C(shift, c2_3)               =  0.320
+    C(beta_3, c2_3)              =  0.316
+    C(spread, beta_3)            = -0.313
+    C(shift, c1_3)               =  0.309
+    C(spread, c1_1)              =  0.290
+    C(spread, c2_1)              =  0.269
+    C(spread, c1_2)              = -0.255
+    C(beta_2, spread)            = -0.233
+    C(spread, c2_2)              = -0.230
+    C(shift, beta_3)             =  0.216
+    C(c1_2, c1_3)                =  0.190
+    C(c1_2, c2_3)                =  0.168
+    C(c2_2, c1_3)                =  0.167
+    C(beta_2, c1_3)              =  0.166
+    C(shift, c1_2)               =  0.162
+    C(beta_2, shift)             =  0.155
+    C(shift, c2_2)               =  0.150
+    C(c2_2, c2_3)                =  0.148
+    C(beta_2, c2_3)              =  0.147
+    C(c1_2, beta_3)              =  0.120
+    C(beta_2, c1_2)              =  0.119
+    C(c2_2, beta_3)              =  0.105
+    C(beta_2, beta_3)            =  0.105
+--- 141.540739059 seconds ---
+
+calibration for cpvert crystal (2) with 4 mev beam
+
+---------------------------------------------------
+cs_bvert_4MeV_0tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_01-23_50_20_groomed.npz
+1 beam_expt_2018_02_01-23_55_21_groomed.npz
+
+bounds: meas_data_cs 7500 14000
+
+---------------------------------------------------
+na_bvert_4MeV_0tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_02-00_02_05_groomed.npz
+1 beam_expt_2018_02_02-00_07_06_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 138
+    # data points      = 251
+    # variables        = 8
+    chi-square         = 461.40962
+    reduced chi-square = 1.89881
+    Akaike info crit   = 168.81715
+    Bayesian info crit = 197.02077
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03107022 +/- 0.000599 (1.93%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03073687 +/- 0.001235 (4.02%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -658.340104 +/- 35.57252 (5.40%) (init=-100)
+    spread:      26573.7626 +/- 58.99094 (0.22%) (init= 25000)
+    c1_1:        0.00063476 +/- 2.81e-05 (4.43%) (init= 0.01)
+    c2_1:       -0.97585104 +/- 0.044361 (4.55%) (init=-0.1)
+    c1_2:        0.00171948 +/- 2.21e-05 (1.28%) (init= 0.01)
+    c2_2:       -2.13803468 +/- 0.083755 (3.92%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.990
+    C(shift, spread)             = -0.934
+    C(c1_2, c2_2)                =  0.785
+    C(beta_2, spread)            = -0.617
+    C(spread, c1_2)              = -0.601
+    C(spread, c2_2)              = -0.547
+    C(beta_2, shift)             =  0.489
+    C(shift, c1_2)               =  0.473
+    C(shift, c2_2)               =  0.433
+    C(shift, c1_1)               = -0.404
+    C(beta_2, c1_2)              =  0.393
+    C(shift, c2_1)               = -0.375
+    C(beta_2, c2_2)              =  0.346
+    C(beta_1, shift)             = -0.337
+    C(spread, c1_1)              =  0.191
+    C(spread, c2_1)              =  0.174
+    C(beta_1, c1_1)              =  0.143
+    C(beta_1, spread)            =  0.129
+    C(beta_1, c2_1)              =  0.127
+
+---------------------------------------------------
+cs_cpvert_4MeV_0tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_02-06_30_30_groomed.npz
+1 beam_expt_2018_02_02-06_35_31_groomed.npz
+
+bounds: meas_data_cs 7500 14000
+
+---------------------------------------------------
+na_cpvert_4MeV_0tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_02-06_41_50_groomed.npz
+1 beam_expt_2018_02_02-06_46_51_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 156
+    # data points      = 251
+    # variables        = 8
+    chi-square         = 788.61237
+    reduced chi-square = 3.24532
+    Akaike info crit   = 303.35031
+    Bayesian info crit = 331.55394
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02823604 +/- 0.000751 (2.66%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03213310 +/- 0.001012 (3.15%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -515.387584 +/- 33.77992 (6.55%) (init=-100)
+    spread:      26496.4360 +/- 49.00712 (0.18%) (init= 25000)
+    c1_1:        0.00045184 +/- 2.19e-05 (4.85%) (init= 0.01)
+    c2_1:       -1.21198034 +/- 0.049886 (4.12%) (init=-0.1)
+    c1_2:        0.00377325 +/- 3.49e-05 (0.92%) (init= 0.01)
+    c2_2:       -2.18154341 +/- 0.057664 (2.64%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.991
+    C(shift, spread)             = -0.924
+    C(c1_2, c2_2)                =  0.777
+    C(beta_2, spread)            = -0.504
+    C(spread, c1_2)              = -0.474
+    C(shift, c1_1)               = -0.446
+    C(spread, c2_2)              = -0.432
+    C(shift, c2_1)               = -0.413
+    C(beta_1, c1_1)              =  0.403
+    C(beta_1, c2_1)              =  0.372
+    C(beta_2, shift)             =  0.361
+    C(shift, c1_2)               =  0.334
+    C(shift, c2_2)               =  0.312
+    C(spread, c1_1)              =  0.263
+    C(beta_2, c1_2)              =  0.250
+    C(spread, c2_1)              =  0.241
+    C(beta_2, c2_2)              =  0.216
+    C(beta_1, shift)             = -0.174
+
+---------------------------------------------------
+cs_bvert_4MeV_45tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_02-12_10_28_groomed.npz
+1 beam_expt_2018_02_02-12_15_29_groomed.npz
+
+bounds: meas_data_cs 7500 14000
+
+---------------------------------------------------
+na_bvert_4MeV_45tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_02-12_20_41_groomed.npz
+1 beam_expt_2018_02_02-12_25_42_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 147
+    # data points      = 251
+    # variables        = 8
+    chi-square         = 630.89159
+    reduced chi-square = 2.59626
+    Akaike info crit   = 247.34196
+    Bayesian info crit = 275.54558
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02909022 +/- 0.000479 (1.65%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03065326 +/- 0.000919 (3.00%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -524.638770 +/- 27.98443 (5.33%) (init=-100)
+    spread:      26626.8163 +/- 46.43527 (0.17%) (init= 25000)
+    c1_1:        0.00085838 +/- 2.72e-05 (3.17%) (init= 0.01)
+    c2_1:       -1.05041384 +/- 0.032299 (3.07%) (init=-0.1)
+    c1_2:        0.00381568 +/- 3.65e-05 (0.96%) (init= 0.01)
+    c2_2:       -2.14305808 +/- 0.057796 (2.70%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.989
+    C(shift, spread)             = -0.934
+    C(c1_2, c2_2)                =  0.788
+    C(spread, c1_2)              = -0.548
+    C(spread, c2_2)              = -0.488
+    C(shift, c1_2)               =  0.433
+    C(beta_2, c1_2)              =  0.410
+    C(shift, c2_2)               =  0.390
+    C(shift, c1_1)               = -0.356
+    C(beta_2, c2_2)              =  0.352
+    C(beta_2, spread)            = -0.349
+    C(shift, c2_1)               = -0.324
+    C(beta_2, shift)             =  0.284
+    C(beta_1, c1_1)              =  0.279
+    C(beta_1, c2_1)              =  0.251
+    C(beta_1, shift)             = -0.167
+    C(spread, c1_1)              =  0.158
+    C(spread, c2_1)              =  0.139
+
+---------------------------------------------------
+cs_bvert_4MeV_30tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_02-22_39_55_groomed.npz
+1 beam_expt_2018_02_02-22_44_56_groomed.npz
+
+bounds: meas_data_cs 7500 14000
+
+---------------------------------------------------
+na_bvert_4MeV_30tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_02-22_51_17_groomed.npz
+1 beam_expt_2018_02_02-22_56_18_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 158
+    # data points      = 251
+    # variables        = 8
+    chi-square         = 939.76345
+    reduced chi-square = 3.86734
+    Akaike info crit   = 347.36399
+    Bayesian info crit = 375.56761
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02825196 +/- 0.000561 (1.99%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03125769 +/- 0.000898 (2.87%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -514.301436 +/- 24.77083 (4.82%) (init=-100)
+    spread:      26570.0896 +/- 39.64860 (0.15%) (init= 25000)
+    c1_1:        0.00102702 +/- 3.33e-05 (3.24%) (init= 0.01)
+    c2_1:       -1.09704319 +/- 0.033250 (3.03%) (init=-0.1)
+    c1_2:        0.00429283 +/- 3.77e-05 (0.88%) (init= 0.01)
+    c2_2:       -2.02778225 +/- 0.056427 (2.78%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.991
+    C(shift, spread)             = -0.929
+    C(c1_2, c2_2)                =  0.741
+    C(spread, c1_2)              = -0.546
+    C(spread, c2_2)              = -0.488
+    C(beta_2, spread)            = -0.467
+    C(shift, c1_2)               =  0.417
+    C(shift, c1_1)               = -0.377
+    C(shift, c2_2)               =  0.375
+    C(beta_2, shift)             =  0.362
+    C(shift, c2_1)               = -0.350
+    C(beta_2, c1_2)              =  0.315
+    C(beta_1, shift)             = -0.290
+    C(beta_1, c1_1)              =  0.265
+    C(beta_2, c2_2)              =  0.262
+    C(beta_1, c2_1)              =  0.244
+    C(spread, c1_1)              =  0.186
+    C(spread, c2_1)              =  0.170
+    C(beta_1, spread)            =  0.128
+
+---------------------------------------------------
+cs_cpvert_4MeV_30tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_03-13_34_43_groomed.npz
+1 beam_expt_2018_02_03-13_39_44_groomed.npz
+
+bounds: meas_data_cs 7500 14000
+
+---------------------------------------------------
+na_cpvert_4MeV_30tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_03-13_45_01_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 165
+    # data points      = 251
+    # variables        = 8
+    chi-square         = 811.16517
+    reduced chi-square = 3.33813
+    Akaike info crit   = 310.42771
+    Bayesian info crit = 338.63133
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03027346 +/- 0.000536 (1.77%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03001728 +/- 0.001233 (4.11%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -675.486844 +/- 33.76734 (5.00%) (init=-100)
+    spread:      26773.7028 +/- 61.88798 (0.23%) (init= 25000)
+    c1_1:        0.00080988 +/- 2.68e-05 (3.31%) (init= 0.01)
+    c2_1:       -1.17141940 +/- 0.033874 (2.89%) (init=-0.1)
+    c1_2:        0.00231920 +/- 3.35e-05 (1.44%) (init= 0.01)
+    c2_2:       -2.07400968 +/- 0.081952 (3.95%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.991
+    C(shift, spread)             = -0.952
+    C(c1_2, c2_2)                =  0.809
+    C(spread, c1_2)              = -0.679
+    C(spread, c2_2)              = -0.602
+    C(shift, c1_2)               =  0.585
+    C(beta_2, spread)            = -0.561
+    C(beta_2, c1_2)              =  0.560
+    C(shift, c2_2)               =  0.521
+    C(beta_2, shift)             =  0.487
+    C(beta_2, c2_2)              =  0.476
+    C(shift, c1_1)               = -0.232
+    C(beta_1, c1_1)              =  0.224
+    C(shift, c2_1)               = -0.211
+    C(beta_1, c2_1)              =  0.207
+    C(beta_1, shift)             = -0.160
+    C(beta_1, c1_2)              =  0.108
+
+---------------------------------------------------
+cs_cpvert_4MeV_neg30tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_03-18_49_47_groomed.npz
+1 beam_expt_2018_02_03-18_54_48_groomed.npz
+
+bounds: meas_data_cs 7500 14000
+
+---------------------------------------------------
+na_cpvert_4MeV_neg30tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_03-19_00_40_groomed.npz
+1 beam_expt_2018_02_03-19_05_41_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 156
+    # data points      = 251
+    # variables        = 8
+    chi-square         = 874.56798
+    reduced chi-square = 3.59905
+    Akaike info crit   = 329.31755
+    Bayesian info crit = 357.52117
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02874040 +/- 0.000692 (2.41%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03109176 +/- 0.001192 (3.83%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -493.775560 +/- 31.60674 (6.40%) (init=-100)
+    spread:      26679.3552 +/- 53.51644 (0.20%) (init= 25000)
+    c1_1:        0.00057238 +/- 2.17e-05 (3.79%) (init= 0.01)
+    c2_1:       -1.14470741 +/- 0.038112 (3.33%) (init=-0.1)
+    c1_2:        0.00258348 +/- 3.33e-05 (1.29%) (init= 0.01)
+    c2_2:       -2.02268903 +/- 0.075398 (3.73%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.990
+    C(shift, spread)             = -0.936
+    C(c1_2, c2_2)                =  0.791
+    C(spread, c1_2)              = -0.609
+    C(spread, c2_2)              = -0.546
+    C(shift, c1_2)               =  0.487
+    C(shift, c2_2)               =  0.440
+    C(beta_2, c1_2)              =  0.422
+    C(beta_2, c2_2)              =  0.376
+    C(shift, c1_1)               = -0.335
+    C(beta_2, spread)            = -0.318
+    C(shift, c2_1)               = -0.304
+    C(beta_1, c1_1)              =  0.280
+    C(beta_2, shift)             =  0.261
+    C(beta_1, c2_1)              =  0.257
+    C(beta_1, shift)             = -0.202
+    C(spread, c1_1)              =  0.138
+    C(spread, c2_1)              =  0.120
+
+---------------------------------------------------
+cs_bvert_4MeV_15tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_04-00_02_48_groomed.npz
+1 beam_expt_2018_02_04-00_07_49_groomed.npz
+
+bounds: meas_data_cs 7500 14000
+
+---------------------------------------------------
+na_bvert_4MeV_15tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_04-00_14_25_groomed.npz
+1 beam_expt_2018_02_04-00_19_27_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 147
+    # data points      = 251
+    # variables        = 8
+    chi-square         = 607.98840
+    reduced chi-square = 2.50201
+    Akaike info crit   = 238.06042
+    Bayesian info crit = 266.26404
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02949296 +/- 0.000711 (2.41%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03328261 +/- 0.001191 (3.58%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -633.258541 +/- 33.62771 (5.31%) (init=-100)
+    spread:      26781.0549 +/- 52.04771 (0.19%) (init= 25000)
+    c1_1:        0.00067391 +/- 2.82e-05 (4.19%) (init= 0.01)
+    c2_1:       -0.99349601 +/- 0.043064 (4.33%) (init=-0.1)
+    c1_2:        0.00219851 +/- 2.54e-05 (1.16%) (init= 0.01)
+    c2_2:       -1.99429186 +/- 0.065514 (3.29%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.989
+    C(shift, spread)             = -0.927
+    C(c1_2, c2_2)                =  0.810
+    C(spread, c1_2)              = -0.578
+    C(spread, c2_2)              = -0.523
+    C(shift, c1_2)               =  0.428
+    C(beta_2, c1_2)              =  0.402
+    C(shift, c2_2)               =  0.392
+    C(shift, c1_1)               = -0.366
+    C(beta_2, c2_2)              =  0.357
+    C(shift, c2_1)               = -0.335
+    C(beta_2, spread)            = -0.280
+    C(beta_1, shift)             = -0.277
+    C(beta_1, c1_1)              =  0.220
+    C(beta_2, shift)             =  0.216
+    C(beta_1, c2_1)              =  0.198
+    C(spread, c1_1)              =  0.190
+    C(spread, c2_1)              =  0.172
+    C(beta_1, spread)            =  0.127
+
+---------------------------------------------------
+cs_cpvert_4MeV_15tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_04-11_05_50_groomed.npz
+1 beam_expt_2018_02_04-11_10_51_groomed.npz
+
+bounds: meas_data_cs 7500 14000
+
+---------------------------------------------------
+na_cpvert_4MeV_15tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_04-11_16_13_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 165
+    # data points      = 251
+    # variables        = 8
+    chi-square         = 729.43417
+    reduced chi-square = 3.00179
+    Akaike info crit   = 283.77086
+    Bayesian info crit = 311.97449
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02936972 +/- 0.000569 (1.94%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.02809421 +/- 0.001465 (5.22%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -555.328596 +/- 35.02282 (6.31%) (init=-100)
+    spread:      26542.1214 +/- 64.86503 (0.24%) (init= 25000)
+    c1_1:        0.00088393 +/- 2.86e-05 (3.23%) (init= 0.01)
+    c2_1:       -1.05140159 +/- 0.031621 (3.01%) (init=-0.1)
+    c1_2:        0.00144732 +/- 2.52e-05 (1.74%) (init= 0.01)
+    c2_2:       -2.23394079 +/- 0.101691 (4.55%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.991
+    C(shift, spread)             = -0.954
+    C(c1_2, c2_2)                =  0.802
+    C(spread, c1_2)              = -0.634
+    C(spread, c2_2)              = -0.566
+    C(shift, c1_2)               =  0.551
+    C(shift, c2_2)               =  0.494
+    C(beta_2, spread)            = -0.394
+    C(beta_2, c1_2)              =  0.382
+    C(beta_2, shift)             =  0.346
+    C(beta_2, c2_2)              =  0.333
+    C(shift, c1_1)               = -0.239
+    C(beta_1, c1_1)              =  0.238
+    C(beta_1, c2_1)              =  0.222
+    C(shift, c2_1)               = -0.215
+    C(beta_1, shift)             = -0.192
+
+---------------------------------------------------
+cs_cpvert_4MeV_neg15tilt
+loaded cs_spec.npy
+0 beam_expt_2018_02_04-16_13_20_groomed.npz
+1 beam_expt_2018_02_04-16_18_21_groomed.npz
+
+bounds: meas_data_cs 7500 14000
+
+---------------------------------------------------
+na_cpvert_4MeV_neg15tilt
+loaded na_spec.npy
+0 beam_expt_2018_02_04-16_23_38_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+performing minimization
+    double spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 147
+    # data points      = 251
+    # variables        = 8
+    chi-square         = 680.03183
+    reduced chi-square = 2.79848
+    Akaike info crit   = 266.16835
+    Bayesian info crit = 294.37198
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.03036929 +/- 0.000535 (1.76%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03578142 +/- 0.001373 (3.84%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -233.927274 +/- 36.30003 (15.52%) (init=-100)
+    spread:      26061.9944 +/- 68.18626 (0.26%) (init= 25000)
+    c1_1:        0.00072243 +/- 2.76e-05 (3.82%) (init= 0.01)
+    c2_1:       -1.10671680 +/- 0.040614 (3.67%) (init=-0.1)
+    c1_2:        0.00175733 +/- 2.35e-05 (1.34%) (init= 0.01)
+    c2_2:       -1.98425862 +/- 0.086219 (4.35%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.991
+    C(shift, spread)             = -0.960
+    C(c1_2, c2_2)                =  0.786
+    C(spread, c1_2)              = -0.550
+    C(spread, c2_2)              = -0.506
+    C(shift, c1_2)               =  0.489
+    C(beta_2, spread)            = -0.478
+    C(shift, c2_2)               =  0.451
+    C(beta_2, shift)             =  0.428
+    C(beta_2, c1_2)              =  0.322
+    C(beta_1, c1_1)              =  0.294
+    C(beta_2, c2_2)              =  0.292
+    C(beta_1, c2_1)              =  0.262
+    C(shift, c1_1)               = -0.238
+    C(shift, c2_1)               = -0.217
+
+---------------------------------------------------
+cs_bvert_cpvert_end
+loaded cs_spec.npy
+0 beam_expt_2018_02_04-21_20_00_groomed.npz
+1 beam_expt_2018_02_04-21_25_01_groomed.npz
+2 beam_expt_2018_02_04-21_30_02_groomed.npz
+
+bounds: meas_data_cs 7500 14000
+
+---------------------------------------------------
+na_bvert_cpvert_end
+loaded na_spec.npy
+0 beam_expt_2018_02_04-21_35_28_groomed.npz
+1 beam_expt_2018_02_04-21_40_29_groomed.npz
+2 beam_expt_2018_02_04-21_45_30_groomed.npz
+
+bounds: meas_data_na 19000 30000
+
+---------------------------------------------------
+co_bvert_cpvert_end
+found co
+loaded co_spec.npy
+0 beam_expt_2018_02_04-21_51_48_groomed.npz
+1 beam_expt_2018_02_04-21_56_49_groomed.npz
+2 beam_expt_2018_02_04-22_01_50_groomed.npz
+3 beam_expt_2018_02_04-22_06_51_groomed.npz
+
+bounds: meas_data_co 16000 31000
+
+performing minimization
+    triple spectrum fit
+
+Fit succeeded.
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 223
+    # data points      = 465
+    # variables        = 11
+    chi-square         = 2550.46566
+    reduced chi-square = 5.61777
+    Akaike info crit   = 813.42713
+    Bayesian info crit = 858.98954
+[[Variables]]
+    alpha_1:     0 (fixed)
+    beta_1:      0.02913795 +/- 0.000496 (1.70%) (init= 0.03)
+    gamma_1:     0 (fixed)
+    alpha_2:     0 (fixed)
+    beta_2:      0.03140625 +/- 0.000945 (3.01%) (init= 0.03)
+    gamma_2:     0 (fixed)
+    shift:      -541.954483 +/- 23.60594 (4.36%) (init=-100)
+    spread:      26829.0536 +/- 29.40686 (0.11%) (init= 25000)
+    c1_1:        0.00162146 +/- 6.10e-05 (3.76%) (init= 0.01)
+    c2_1:       -1.04462012 +/- 0.037611 (3.60%) (init=-0.1)
+    c1_2:        0.00589766 +/- 5.09e-05 (0.86%) (init= 0.01)
+    c2_2:       -2.18512157 +/- 0.049636 (2.27%) (init=-1)
+    y_scale_1:   1e-05 (fixed)
+    y_scale_2:   1e-05 (fixed)
+    alpha_3:     0 (fixed)
+    beta_3:      0.03424864 +/- 0.000522 (1.52%) (init= 0.03)
+    gamma_3:     0 (fixed)
+    c1_3:        0.00902555 +/- 3.67e-05 (0.41%) (init= 0.01)
+    c2_3:       -1.64931682 +/- 0.016919 (1.03%) (init=-1)
+    y_scale_3:   1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(c1_1, c2_1)                =  0.990
+    C(shift, spread)             = -0.930
+    C(c1_3, c2_3)                =  0.830
+    C(c1_2, c2_2)                =  0.751
+    C(shift, c1_1)               = -0.585
+    C(shift, c2_1)               = -0.543
+    C(spread, c1_3)              = -0.447
+    C(spread, c1_1)              =  0.427
+    C(spread, c2_3)              = -0.415
+    C(beta_1, shift)             = -0.400
+    C(spread, c2_1)              =  0.395
+    C(beta_3, c1_3)              =  0.341
+    C(beta_3, c2_3)              =  0.306
+    C(spread, c1_2)              = -0.282
+    C(beta_1, spread)            =  0.280
+    C(shift, c1_3)               =  0.273
+    C(shift, c2_3)               =  0.273
+    C(beta_2, c1_2)              =  0.254
+    C(spread, c2_2)              = -0.251
+    C(c1_2, c1_3)                =  0.221
+    C(beta_2, c2_2)              =  0.214
+    C(beta_2, spread)            = -0.205
+    C(c1_2, c2_3)                =  0.192
+    C(c2_2, c1_3)                =  0.188
+    C(beta_1, c1_1)              =  0.188
+    C(shift, c1_2)               =  0.174
+    C(beta_1, c2_1)              =  0.168
+    C(c2_2, c2_3)                =  0.164
+    C(shift, c2_2)               =  0.162
+    C(beta_2, c1_3)              =  0.152
+    C(beta_2, shift)             =  0.134
+    C(beta_2, c2_3)              =  0.132
+    C(spread, beta_3)            = -0.114
+--- 185.169100046 seconds ---
+
+
+data was save to cpvert_test_gamma_cal_res.p
+
+
+slope parameters:
+                  m       m_std      b       b_std
+11MeV  bvert   8604.62     95.74  -154.52    15.47
+11MeV cpvert   8666.92    110.08  -166.47    23.15
+ 4MeV  bvert   25868.35   108.67  -544.24    48.55
+ 4MeV cpvert   26593.44   206.67  -534.64   117.61

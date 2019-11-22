@@ -1,0 +1,18 @@
+found fit_params_11MeV_bvert.p
+found fit_params_11MeV_cpvert.p
+found fit_params_4MeV_bvert.p
+found fit_params_4MeV_cpvert.p
+
+
+Results:
+
+   crystal        sigma_avg  std_of_476_adc  max_min_%_diff  rel_std
+ 11 MeV bvert:      4.080      33.690          3.22%         0.85%
+  4 MeV bvert:     11.241      32.109          1.01%         0.27%
+ 11 MeV cpvert:     4.837      44.598          3.77%         1.13%
+ 4 MeV cpvert:     11.940      66.447          1.96%         0.55%
+
+Temperature data:
+ Avg (C)    Max (C)   Min (C)   Std
+ 20.83       24.7     20.5     0.27       all temps
+ 20.82       22.8     20.5     0.19       run temps
